@@ -2,7 +2,7 @@ html {
  
 @font-face {
  font-family: "Calibri";
-  src: url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype")
+  src: url("Calibri/Calibri Regular.ttf") format("truetype")
 }
  font-family: Calibri, Helvetica, Arial;
 }
