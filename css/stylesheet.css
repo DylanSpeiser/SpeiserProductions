@@ -1,8 +1,6 @@
 html {
  
-@font-face {
-  font-family:'Calibri Regular';
-  src: url('/Calibri/Calibri Regular.ttf');
-}
- font-family: 'Calibri Regular', Helvetica, Arial;
+ @import url('https://fonts.googleapis.com/css?family=Asap|Asap+Condensed&display=swap');
+
+ font-family: 'Asap', Helvetica, Arial;
 }
