@@ -1,9 +1,8 @@
 html {
  
 @font-face {
-  font-family: "Calibri Regular";
-  src: url("Calibri/Calibri Regular.ttf");
-  format:('truetype');
+  font-family:'Calibri Regular';
+  src: url('Calibri/Calibri Regular.ttf');
 }
  font-family: "Calibri Regular", Helvetica, Arial;
 }
