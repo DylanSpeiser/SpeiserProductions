@@ -1,4 +1,9 @@
-html {
+a{
 
- font-family: 'Asap', Times New Roman;
+ font-family: 'Asap', Times New Roman !important;
+}
+
+img {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
