@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: Calibri, sans-serif;
+    font-family: "MyCalibri", serif;
     background-color: white;
     background-color: black;
     color: azure;
@@ -76,8 +76,8 @@ nav a:hover {
 }
 
 h1 {
-    font-family: FuturaH, sans-serif;
-    font-weight: 200;
+    font-family: "MyFutura", serif;
+    font-weight: 400;
     text-shadow: 0px 0px 5px black;
 }
 
@@ -88,15 +88,13 @@ h1 {
 }
 
 @font-face {
-    font-family: FuturaH;
-    src: url('Futura Heavy.ttf') format('truetype');
-    font-weight: heavy;
-    font-style: normal;
+    font-family: "MyCalibri";
+    src: url("fonts/CalibriRegular.woff2") format("woff2");
+    src: url("fonts/CalibriRegular.woff") format("woff");
 }
 
 @font-face {
-    font-family: Calibri;
-    src: url('Calibri Regular.ttf') format('truetype');
-    font-weight: regular;
-    font-style: normal;
+    font-family: "MyFutura";
+    src: url('fonts/FuturaHeavy.woff') format("woff");
+    src: url('fonts/FuturaHeavy.woff2') format("woff2");
 }
