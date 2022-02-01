@@ -14,9 +14,9 @@ html {
 
 body {
     font-family: "MyCalibri", serif;
-    background-color: white;
-    background-color: black;
-    color: azure;
+    background: linear-gradient(#0f0f0f, #2b2b2b);
+    min-height: 2160px;
+    background-size: 100% 100%;
 }
 
 .navbar {
@@ -43,6 +43,17 @@ nav a {
 
 nav li {
     padding-left: 8rem;
+    color: azure;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: azure;
+    text-shadow: 0px 0px 3px black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #a9d1d1;
+    text-shadow: 0px 0px 3px #0f0f0f;
 }
 
 @media (max-width: 1680px) {
@@ -75,10 +86,117 @@ nav a:hover {
     }
 }
 
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iframeHolder {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.pageImg {
+    height: 100%;
+    position: fixed;
+}
+
+.logoContainer img {
+    width: 100%;
+}
+
+.pageParagraph {
+    padding-top: 1rem;
+    color: black;
+    font-size: 2rem;
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.jumbotron h1 {
+    font-family: "MyBernadette", "MyCalibri", sans-serif;
+}
+
+.jumbotron img {
+    border-radius: 5px;
+}
+
+.bigImgSM {
+    display: none;
+}
+
+.halfDiv {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+}
+
+.littleIcon {
+    margin-top: 0.5rem;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
+}
+
+.littlerIcon {
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+@media (min-width:750px) {
+    .jumbotronInnerDiv {
+        width: 95%;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width:850px) {
+    .letterboxBottom {
+        padding-bottom: 1rem;
+    }
+
+    .letterboxTop {
+        padding-bottom: 1rem;
+    }
+
+    .nav-link {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .bigImgSM {
+        display: block;
+    }
+
+    .halfDiv {
+        width: 100%;
+        display: block;
+    }
+
+    .pageParagraph {
+        padding-top: 1rem;
+        color: black;
+        font-size: 1.4rem;
+    }
+}
+
 h1 {
     font-family: "MyFutura", serif;
     font-weight: 400;
-    text-shadow: 0px 0px 5px black;
+    color: azure;
 }
 
 #footer {
